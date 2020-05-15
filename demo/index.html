@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Match Position - Between Two DOM</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script type="module" src="./script.js" defer></script>
+  </head>  
+  <body>
+
+    <form id="control-form" onclick="stopInterval()">
+      <label>a position</label>
+      <select name="aPosSelect">
+        <option value="lt">lt</option>
+        <option value="lb">lb</option>
+        <option value="rt">rt</option>
+        <option value="rb">rb</option>
+      </select> →
+
+      <label>b position</label>
+      <select name="bPosSelect">
+        <option value="lt">lt</option>
+        <option value="lb">lb</option>
+        <option value="rt">rt</option>
+        <option value="rb">rb</option>
+      </select>
+
+      <button>show</button>  
+    </form>
+    
+    
+
+    <div id="a" class="rect">a</div>
+    
+    <div class="wrapper">
+      <div id="b" class="rect">b</div>  
+    </div>
+  </body>
+</html>
