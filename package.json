@@ -2,14 +2,19 @@
   "name": "match-position",
   "version": "0.0.1",
   "description": "Moves one element to another element based on corner points.",
-  "main": "index.js",
+  "main": "dist/match-position.js",
+  "browser": "dist/match-position.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
     "url": "github.com/cihad/match-position"
   },
   "author": "Cihad Paksoy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-terser": "^5.3.0"
+  }
 }
