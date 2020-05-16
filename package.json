@@ -1,6 +1,6 @@
 {
   "name": "match-position",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Moves one element to another element based on corner points.",
   "main": "dist/match-position.js",
   "browser": "dist/match-position.min.js",
